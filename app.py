@@ -175,7 +175,7 @@ if st.sidebar.button("🔍 Calculate Emissions", type="primary"):
     # Model Evaluation Plots
     # =========================
     st.markdown("---")
-    st.subheader("🧪 Model Evaluation (on dataset)")
+    st.subheader("🧪 Model Evaluation ")
 
     # Prepare X, y from dataset (must match training columns!)
     feature_cols = ["Engine size (L)", "Cylinders", "Fuel type", "Combined (L/100 km)"]
